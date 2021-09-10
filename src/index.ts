@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import crypto from 'crypto'
 import * as commander from 'commander'
 
