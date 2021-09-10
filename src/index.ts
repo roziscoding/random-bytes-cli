@@ -8,6 +8,7 @@ const pkg = require('../package.json')
 const program = new commander.Command()
 
 program
+  .name('rdb')
   .version(pkg.version)
   .argument('<size>', 'number of bytes to generate', (x) => {
     const int = parseInt(x, 10)
